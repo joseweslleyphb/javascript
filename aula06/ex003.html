@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu primeiro programa</title>
+  <style>
+    body {
+      background-color: rgb(134, 134, 209);
+      color: white;
+      font: normal 20pt Arial;
+    }
+  </style>
+</head>
+<body>
+  <h1>olá, mundo!</h1>
+  <p>Já me livrei da maldição</p>
+  <script>
+    var n1 = Number.parseInt(window.prompt('Digite um número: '))
+    var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+    var s = n1 + n2
+    window.alert('A soma dos valores é' + s)
+    /* concatenação
+      + ele pode servi tanto para adição (number + number) (Number.parseInt ou Number.parseFloat)
+      1 opção para o number (Number.parseInt(n) esse serve para numero inteiro)
+      2 opção para number (Number.parseFloat(n) esse para numero com virgulas e pontos)
+      + como para concatenação que junta os numeros e não faz a soma (string + string) (window.prompt)*/
+  </script>
+</body>
+</html>
