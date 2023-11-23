@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font: normal 28pt Arial;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    let nome = window.prompt('Qual é seu nome: ')
+    document.write('Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras. </br>')
+    document.write('Seu nome em maiúsculo é ${nome.toUpperCase()} </br>')
+    document.write('Seu nome em minúsculo é ${nome.toLowerCase()}')
+
+    /* let s = 'JavaScript'
+      s.length // quantos caracteres a string tem não se usa parenteses
+      s.toUppercase()  // tudo para Maiuscula
+      s.toLowerCase()  // tudo para minusculo
+      'Eu estou Aprendendo s'   // não faz interpolação
+      'Eu estou Aprendendo' + s  // usa concatenação
+      'Eu estou Aprendendo ${s}'  // usa template string*/
+
+     /* let n1 = 1543.5
+      n1.toFixed(2)
+      n1.toFixed(2).replace('.' , ',')
+      
+      para salario: n1.toLocaleString(pt-BR , {style: 'currency', currency:'BRL'})
+      n1.toLocaleString(pt-BR , {style: 'currency', currency:'USD'})
+      n1.toLocaleString(pt-BR , {style: 'currency', currency:'EUR'})*/
+  </script>
+</body>
+</html>

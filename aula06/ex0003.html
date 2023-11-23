@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu primeiro programa</title>
+  <style>
+    body {
+      background-color: rgb(134, 134, 209);
+      color: white;
+      font: normal 20pt Arial;
+    }
+  </style>
+</head>
+<body>
+  <h1>olá, mundo!</h1>
+  <p>Já me livrei da maldição</p>
+  <script>
+    let nome = Number(window.prompt('Digite seu nome: '))
+    let idade = Number(window.prompt('Digite sua Idade: ' ))
+    let nota = Number(window.prompt('Digite sua Nota: '))
+
+    window.alert('O Aluno' + nome, 'com' + idade, 'anos ficou com a' + nota )
+
+    /* var s = 'JavaScript'
+    'Eu estou aprendendo s'  // não faz interpolação
+    'Eu estou aprendendo' + s // usa concatenação
+    'Eu estou aprendendo ${s}  // usa template string*/
+  </script>
+</body>
+</html>
